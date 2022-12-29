@@ -1,0 +1,41 @@
+.header {
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header + .subtitle {
+  margin-top: 8px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+
+.forms {
+  display: flex;
+  width: 100%;
+}
+
+.form {
+  flex: 1;
+  padding-inline: 16px;
+}
+
+.divider {
+  width: 1px;
+  background-color: grey;
+}
+
+.generate {
+  width: 220px;
+  margin-top: 24px;
+}
